@@ -18,7 +18,7 @@ import "../css/style.css"
 
 
 /* import "../assets/js/app.min.js" */
-import "../assets/js/vendor/jquery-3.6.0.min.js"
+/* import "../assets/js/jquery-3.6.0.min.js" */
 import "../assets/js/slick.min.js"
 import "../assets/js/layerslider.utils.js"
 import "../assets/js/layerslider.transitions.js"
