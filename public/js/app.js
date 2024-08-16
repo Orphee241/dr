@@ -24,8 +24,9 @@ import "../assets/js/layerslider.utils.js"
 import "../assets/js/layerslider.transitions.js"
 import "../assets/js/layerslider.kreaturamedia.jquery.js"
 import "../assets/js/bootstrap.min.js"
-/* import "../../public/assets/js/wow.min.js" */
+
 import "../assets/js/jquery.magnific-popup.min.js"
 import "../assets/js/imagesloaded.pkgd.min.js"
 import "../assets/js/isotope.pkgd.min.js"
 import "../assets/js/main.js"
+/* import "../../public/assets/js/wow.min.js" */

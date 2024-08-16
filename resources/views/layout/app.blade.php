@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="L'ONG Dynamique Régionale traite des questions de l'Intégration Régionale en Afrique Centrale">
     <link href="assets/images/favicon/favicon.png" rel="icon">
     <title>Dynamique Régionale, l'ONG n°1 dans les questions relatives à l'Intégration Régionale en Afrique Centrale</title>
-    <meta charset="utf-8">
     <meta name="keywords" content="Intégration Régionale, Afrique Centrale, CEMAC, CEEAC, Libreville, GABON, CAMEROUN, CONGO, RDC, TCHAD" />
 {{--     <meta name="robots" content="INDEX,FOLLOW"> --}}
 
