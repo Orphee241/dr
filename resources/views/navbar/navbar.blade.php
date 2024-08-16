@@ -13,7 +13,6 @@
                 <ul>
                     <li class="menu-item-has-children">
                         <a href="index.html">Home</a>
-
                     </li>
                     <li>
                         <a href="about.html">About Us</a>
