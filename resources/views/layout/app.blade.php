@@ -3,21 +3,17 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="description" content="Solatec - Solar and Renewable Energy Template">
+    <meta name="description" content="L'ONG Dynamique Régionale traite des questions de l'Intégration Régionale en Afrique Centrale">
     <link href="assets/images/favicon/favicon.png" rel="icon">
-    <title>Solatec - Solar and Renewable Energy Template</title>
+    <title>Dynamique Régionale, l'ONG n°1 dans les questions relatives à l'Intégration Régionale en Afrique Centrale</title>
     <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>TechBiz - IT Solution & Service HTML Template - Home One - Layerslider</title>
-    <meta name="author" content="vecuro">
-    <meta name="description" content="TechBiz - IT Solution & Service HTML Template">
-    <meta name="keywords" content="TechBiz - IT Solution & Service HTML Template" />
-    <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="keywords" content="Intégration Régionale, Afrique Centrale, CEMAC, CEEAC, Libreville, GABON, CAMEROUN, CONGO, RDC, TCHAD" />
+{{--     <meta name="robots" content="INDEX,FOLLOW"> --}}
 
     <!-- Mobile Specific Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{{--     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> --}}
 
     <!-- Favicons - Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
@@ -49,19 +45,15 @@
         href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&family=Fira+Sans:wght@400;500&display=swap"
         rel="stylesheet">
 
-
-    
-   
     @vite(['public/js/app.js'])
 
 </head>
 
 <body>
 
+    @include("navbar.navbar")
 
     @yield('content')
-
-
 
 </body>
 
