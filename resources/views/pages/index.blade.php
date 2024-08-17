@@ -13,7 +13,7 @@
         <div class="vs-hero-carousel" data-height="850" data-container="1900" data-slidertype="responsive">
             <!-- Slide 1-->
             <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnszoom:in; kenburnsscale:1.1;">
-                <img width="1920" height="850" src="{{ URL::to('assets/img/bg/sitebanner2.jpg') }}" class="ls-bg"
+                <img width="1920" height="850" src="{{ URL::to('img/bg/sitebanner2.jpg') }}" class="ls-bg"
                     alt="hero-bg" />
                 <div style="font-size:36px; color:#ff0000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; border-style:solid; border-color:#000; background-position:0% 0%; background-repeat:no-repeat; width:300px; height:1558px; background-color:rgba(0, 255, 81, 0.066); top:-473px; left:51px;"
                     class="ls-l ls-text-layer d-hd-none"
@@ -105,7 +105,7 @@
             </div>
             <!-- Slide 2-->
             <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnszoom:out; kenburnsscale:1.1;">
-                <img width="1920" height="850" src="{{ URL::to('assets/img/bg/sitebanner2.jpg') }}" class="ls-bg"
+                <img width="1920" height="850" src="{{ URL::to('img/bg/sitebanner2.jpg') }}" class="ls-bg"
                     alt="hero-bg" />
                 <div style="font-size:36px; color:#ff0000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; border-style:solid; border-color:#000; background-position:0% 0%; background-repeat:no-repeat; width:300px; height:1558px; background-color:rgba(0, 255, 81, 0.066); top:-473px; left:51px;"
                     class="ls-l ls-text-layer d-hd-none"
@@ -185,7 +185,7 @@
             </div>
             <!-- Slide 3-->
             <div class="ls-slide" data-ls="duration:12000; transition2d:5; kenburnszoom:in; kenburnsscale:1.1;">
-                <img width="1920" height="850" src="{{ URL::to('assets/img/bg/sitebanner2.jpg') }}" class="ls-bg"
+                <img width="1920" height="850" src="{{ URL::to('img/bg/sitebanner2.jpg') }}" class="ls-bg"
                     alt="hero-bg" />
                 <div style="font-size:36px; color:#ff0000; text-align:left; font-style:normal; text-decoration:none; text-transform:none; font-weight:400; letter-spacing:0px; border-style:solid; border-color:#000; background-position:0% 0%; background-repeat:no-repeat; width:300px; height:1558px; background-color:rgba(14, 245, 68, 0.107); top:-473px; left:51px;"
                     class="ls-l ls-text-layer d-hd-none"
@@ -261,7 +261,7 @@
             </div>
         </div>
     </section>
-    <div data-bg-src="{{ URL::to('/assets/img/bg/ab-bg-1-1.jpg') }}">
+    <div data-bg-src="{{ URL::to('/img/bg/ab-bg-1-1.jpg') }}">
         <!--==============================
           Features Area
           ==============================-->
@@ -270,7 +270,7 @@
                 <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
                     <div class="col-xl-4">
                         <div class="feature-style1">
-                            <div class="feature-icon"><img src="assets/img/icon/fe-1-1.png" alt="Features"></div>
+                            <div class="feature-icon"><img src="img/icon/fe-1-1.png" alt="Features"></div>
                             <h3 class="feature-title h5"><a class="text-inherit" href="service-details.html">Development
                                     Services</a></h3>
                             <p class="feature-text">Completely implement via highly efficient process improvements.
@@ -281,7 +281,7 @@
                     </div>
                     <div class="col-xl-4">
                         <div class="feature-style1">
-                            <div class="feature-icon"><img src="assets/img/icon/fe-1-2.png" alt="Features"></div>
+                            <div class="feature-icon"><img src="img/icon/fe-1-2.png" alt="Features"></div>
                             <h3 class="feature-title h5"><a class="text-inherit" href="service-details.html">Marketing
                                     Services</a></h3>
                             <p class="feature-text">Completely implement via highly efficient process improvements.
@@ -292,7 +292,7 @@
                     </div>
                     <div class="col-xl-4">
                         <div class="feature-style1">
-                            <div class="feature-icon"><img src="assets/img/icon/fe-1-3.png" alt="Features"></div>
+                            <div class="feature-icon"><img src="img/icon/fe-1-3.png" alt="Features"></div>
                             <h3 class="feature-title h5"><a class="text-inherit" href="service-details.html">Consulting
                                     Services</a></h3>
                             <p class="feature-text">Completely implement via highly efficient process improvements.
@@ -314,10 +314,10 @@
                     <div class="col-lg-6 col-xl-5 mb-50 mb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="img-box1">
                             <div class="img-1">
-                                <img src="assets/img/about/ab-1-1.jpg" alt="About image">
+                                <img src="img/about/ab-1-1.jpg" alt="About image">
                             </div>
                             <div class="img-2">
-                                <img src="assets/img/about/ab-1-2.jpg" alt="About image">
+                                <img src="img/about/ab-1-2.jpg" alt="About image">
                                 <a class="play-btn style2 position-center popup-video"
                                     href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><i class=""><i
                                             class="fas fa-play"></i></i></a>
@@ -332,7 +332,7 @@
                             visionary quality vectors after covalent e-tailers. Intrinsicly enhance 24/7 users and
                             supply process</p>
                         <div class="call-media">
-                            <div class="call-media__icon"><img src="assets/img/icon/tel-1-1.png" alt="icon"></div>
+                            <div class="call-media__icon"><img src="img/icon/tel-1-1.png" alt="icon"></div>
                             <div class="media-body">
                                 <span class="call-media__label">24 HOURS SERVICE AVAILABLE</span>
                                 <p class="call-media__info">Call Us: <a href="tel:+6668880000">+(666) 888 0000</a></p>
@@ -347,7 +347,7 @@
     <!--==============================
           Service Area
           ==============================-->
-    <section class=" space-top space-extra-bottom" data-bg-src="assets/img/bg/sr-bg-1-1.png">
+    <section class=" space-top space-extra-bottom" data-bg-src="img/bg/sr-bg-1-1.png">
         <div class="container">
             <div class="row justify-content-center text-center">
                 <div class="col-lg-8 col-xl-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -360,8 +360,8 @@
             <div class="row wow fadeInUp" data-wow-delay="0.2s">
                 <div class="col-md-6 col-lg-4">
                     <div class="service-style1">
-                        <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
-                        <div class="service-icon"><img src="assets/img/icon/sr-icon-1-1.png" alt="Features"></div>
+                        <div class="service-bg" data-bg-src="img/bg/sr-box-bg-1.jpg"></div>
+                        <div class="service-icon"><img src="img/icon/sr-icon-1-1.png" alt="Features"></div>
                         <h3 class="service-title h5"><a href="service-details.html">Juridique</a></h3>
                         <p class="service-text">Deliver plug commerce with dynamic is expertise. leading edge products
                             with business models</p>
@@ -371,8 +371,8 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-style1">
-                        <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
-                        <div class="service-icon"><img src="assets/img/icon/sr-icon-1-2.png" alt="Features"></div>
+                        <div class="service-bg" data-bg-src="img/bg/sr-box-bg-1.jpg"></div>
+                        <div class="service-icon"><img src="img/icon/sr-icon-1-2.png" alt="Features"></div>
                         <h3 class="service-title h5"><a href="service-details.html">Economique</a></h3>
                         <p class="service-text">Deliver plug commerce with dynamic is expertise. leading edge products
                             with business models</p>
@@ -382,8 +382,8 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-style1">
-                        <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
-                        <div class="service-icon"><img src="assets/img/icon/sr-icon-1-3.png" alt="Features"></div>
+                        <div class="service-bg" data-bg-src="img/bg/sr-box-bg-1.jpg"></div>
+                        <div class="service-icon"><img src="img/icon/sr-icon-1-3.png" alt="Features"></div>
                         <h3 class="service-title h5"><a href="service-details.html">Sociale</a></h3>
                         <p class="service-text">Deliver plug commerce with dynamic is expertise. leading edge products
                             with business models</p>
@@ -393,8 +393,8 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-style1">
-                        <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
-                        <div class="service-icon"><img src="assets/img/icon/sr-icon-1-4.png" alt="Features"></div>
+                        <div class="service-bg" data-bg-src="img/bg/sr-box-bg-1.jpg"></div>
+                        <div class="service-icon"><img src="img/icon/sr-icon-1-4.png" alt="Features"></div>
                         <h3 class="service-title h5"><a href="service-details.html">Culturel</a></h3>
                         <p class="service-text">Deliver plug commerce with dynamic is expertise. leading edge products
                             with business models</p>
@@ -404,8 +404,8 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-style1">
-                        <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
-                        <div class="service-icon"><img src="assets/img/icon/sr-icon-1-5.png" alt="Features"></div>
+                        <div class="service-bg" data-bg-src="img/bg/sr-box-bg-1.jpg"></div>
+                        <div class="service-icon"><img src="img/icon/sr-icon-1-5.png" alt="Features"></div>
                         <h3 class="service-title h5"><a href="service-details.html">Environnementale</a></h3>
                         <p class="service-text">Deliver plug commerce with dynamic is expertise. leading edge products
                             with business models</p>
@@ -415,8 +415,8 @@
                 </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="service-style1">
-                        <div class="service-bg" data-bg-src="assets/img/bg/sr-box-bg-1.jpg"></div>
-                        <div class="service-icon"><img src="assets/img/icon/sr-icon-1-6.png" alt="Features"></div>
+                        <div class="service-bg" data-bg-src="img/bg/sr-box-bg-1.jpg"></div>
+                        <div class="service-icon"><img src="img/icon/sr-icon-1-6.png" alt="Features"></div>
                         <h3 class="service-title h5"><a href="service-details.html">Etique et Scientifique</a></h3>
                         <p class="service-text">Deliver plug commerce with dynamic is expertise. leading edge products
                             with business models</p>
@@ -432,12 +432,12 @@
           ==============================-->
     <div class="position-relative ">
         <div class="counter-shape1"></div>
-        <div class="bg-black z-index-common space" data-bg-src="assets/img/bg/counter-bg-1-1.jpg">
+        <div class="bg-black z-index-common space" data-bg-src="img/bg/counter-bg-1-1.jpg">
             <div class="container wow fadeInUp" data-wow-delay="0.2s">
                 <div class="row justify-content-between gy-4">
                     <div class="col-6 col-lg-auto">
                         <div class="counter-media">
-                            <div class="counter-media__icon"><img src="assets/img/icon/count-1-1.png" alt="icon">
+                            <div class="counter-media__icon"><img src="img/icon/count-1-1.png" alt="icon">
                             </div>
                             <div class="media-body">
                                 <span class="counter-media__number h1 text-white">858</span>
@@ -447,7 +447,7 @@
                     </div>
                     <div class="col-6 col-lg-auto">
                         <div class="counter-media">
-                            <div class="counter-media__icon"><img src="assets/img/icon/count-1-2.png" alt="icon">
+                            <div class="counter-media__icon"><img src="img/icon/count-1-2.png" alt="icon">
                             </div>
                             <div class="media-body">
                                 <span class="counter-media__number h1 text-white">650</span>
@@ -457,7 +457,7 @@
                     </div>
                     <div class="col-6 col-lg-auto">
                         <div class="counter-media">
-                            <div class="counter-media__icon"><img src="assets/img/icon/count-1-3.png" alt="icon">
+                            <div class="counter-media__icon"><img src="img/icon/count-1-3.png" alt="icon">
                             </div>
                             <div class="media-body">
                                 <span class="counter-media__number h1 text-white">567</span>
@@ -467,7 +467,7 @@
                     </div>
                     <div class="col-6 col-lg-auto">
                         <div class="counter-media">
-                            <div class="counter-media__icon"><img src="assets/img/icon/count-1-4.png" alt="icon">
+                            <div class="counter-media__icon"><img src="img/icon/count-1-4.png" alt="icon">
                             </div>
                             <div class="media-body">
                                 <span class="counter-media__number h1 text-white">28k</span>
@@ -496,7 +496,7 @@
                 <div class="col-xl-3">
                     <div class="team-style1">
                         <div class="team-img">
-                            <a href="team-details.html"><img src="assets/img/team/t-1-1.jpg" alt="image"></a>
+                            <a href="team-details.html"><img src="img/team/t-1-1.jpg" alt="image"></a>
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -515,7 +515,7 @@
                 <div class="col-xl-3">
                     <div class="team-style1">
                         <div class="team-img">
-                            <a href="team-details.html"><img src="assets/img/team/t-1-2.jpg" alt="image"></a>
+                            <a href="team-details.html"><img src="img/team/t-1-2.jpg" alt="image"></a>
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -534,7 +534,7 @@
                 <div class="col-xl-3">
                     <div class="team-style1">
                         <div class="team-img">
-                            <a href="team-details.html"><img src="assets/img/team/t-1-3.jpg" alt="image"></a>
+                            <a href="team-details.html"><img src="img/team/t-1-3.jpg" alt="image"></a>
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -553,7 +553,7 @@
                 <div class="col-xl-3">
                     <div class="team-style1">
                         <div class="team-img">
-                            <a href="team-details.html"><img src="assets/img/team/t-1-4.jpg" alt="image"></a>
+                            <a href="team-details.html"><img src="img/team/t-1-4.jpg" alt="image"></a>
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -572,7 +572,7 @@
                 <div class="col-xl-3">
                     <div class="team-style1">
                         <div class="team-img">
-                            <a href="team-details.html"><img src="assets/img/team/t-1-5.jpg" alt="image"></a>
+                            <a href="team-details.html"><img src="img/team/t-1-5.jpg" alt="image"></a>
                             <div class="team-social">
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
@@ -602,7 +602,7 @@
         <div class="container">
             <div class="row flex-row-reverse">
                 <div class="col-lg-5 col-xxl-auto mb-30 pb-20 pb-lg-0 wow fadeInUp" data-wow-delay="0.2s">
-                    <img src="assets/img/skill/skill-1-1.jpg" alt="Skill image">
+                    <img src="img/skill/skill-1-1.jpg" alt="Skill image">
                 </div>
                 <div class="col-lg-7 col-xxl-6 me-xl-auto">
                     <span class="sec-subtitle"><i class="fas fa-bring-forward"></i>The Great Company Skill</span>
@@ -641,7 +641,7 @@
     <!--==============================
           CTA Area
           ==============================-->
-    <section class="z-index-common space" data-bg-src="assets/img/bg/cta-bg-1-1.jpg">
+    <section class="z-index-common space" data-bg-src="img/bg/cta-bg-1-1.jpg">
         <div class="container">
             <div class="row text-center text-lg-start align-items-center justify-content-between">
                 <div class="col-lg-auto">
@@ -657,7 +657,7 @@
     <!--==============================
           Work Process
           ==============================-->
-    <section class=" space-top space-extra-bottom" data-bg-src="assets/img/bg/process-bg-1-1.jpg" id="processv1">
+    <section class=" space-top space-extra-bottom" data-bg-src="img/bg/process-bg-1-1.jpg" id="processv1">
         <div class="container wow fadeInUp" data-wow-delay="0.2s">
             <div class="row justify-content-center text-center">
                 <div class="col-xl-6">
@@ -669,9 +669,9 @@
             </div>
             <div class="row">
                 <div class="col-sm-6 col-lg-3 process-style1">
-                    <div class="process-arrow"><img src="assets/img/icon/process-arrow-1-1.png" alt="arrow"></div>
+                    <div class="process-arrow"><img src="img/icon/process-arrow-1-1.png" alt="arrow"></div>
                     <div class="process-icon">
-                        <img src="assets/img/icon/process-1-4.png" alt="icon">
+                        <img src="img/icon/process-1-4.png" alt="icon">
                         <span class="process-number">01</span>
                     </div>
                     <h3 class="process-title h5">Medicine Help</h3>
@@ -679,9 +679,9 @@
                         olisticly enable client.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3 process-style1">
-                    <div class="process-arrow"><img src="assets/img/icon/process-arrow-1-1.png" alt="arrow"></div>
+                    <div class="process-arrow"><img src="img/icon/process-arrow-1-1.png" alt="arrow"></div>
                     <div class="process-icon">
-                        <img src="assets/img/icon/process-1-1.png" alt="icon">
+                        <img src="img/icon/process-1-1.png" alt="icon">
                         <span class="process-number">01</span>
                     </div>
                     <h3 class="process-title h5">We Build and Create</h3>
@@ -689,9 +689,9 @@
                         olisticly enable client.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3 process-style1">
-                    <div class="process-arrow"><img src="assets/img/icon/process-arrow-1-1.png" alt="arrow"></div>
+                    <div class="process-arrow"><img src="img/icon/process-arrow-1-1.png" alt="arrow"></div>
                     <div class="process-icon">
-                        <img src="assets/img/icon/process-1-2.png" alt="icon">
+                        <img src="img/icon/process-1-2.png" alt="icon">
                         <span class="process-number">01</span>
                     </div>
                     <h3 class="process-title h5">Water Delivery</h3>
@@ -699,9 +699,9 @@
                         olisticly enable client.</p>
                 </div>
                 <div class="col-sm-6 col-lg-3 process-style1">
-                    <div class="process-arrow"><img src="assets/img/icon/process-arrow-1-1.png" alt="arrow"></div>
+                    <div class="process-arrow"><img src="img/icon/process-arrow-1-1.png" alt="arrow"></div>
                     <div class="process-icon">
-                        <img src="assets/img/icon/process-1-3.png" alt="icon">
+                        <img src="img/icon/process-1-3.png" alt="icon">
                         <span class="process-number">01</span>
                     </div>
                     <h3 class="process-title h5">We Care About</h3>
@@ -727,19 +727,19 @@
             </div>
             <div class="row vs-carousel text-center" data-slide-show="5" data-md-slide-show="3" data-sm-slide-show="2"
                 data-xs-slide-show="2">
-                <div class="col-auto"><img src="assets/img/brand/br-1-1.png" alt="Brand"></div>
-                <div class="col-auto"><img src="assets/img/brand/br-1-2.png" alt="Brand"></div>
-                <div class="col-auto"><img src="assets/img/brand/br-1-3.png" alt="Brand"></div>
-                <div class="col-auto"><img src="assets/img/brand/br-1-4.png" alt="Brand"></div>
-                <div class="col-auto"><img src="assets/img/brand/br-1-5.png" alt="Brand"></div>
-                <div class="col-auto"><img src="assets/img/brand/br-1-6.png" alt="Brand"></div>
+                <div class="col-auto"><img src="img/brand/br-1-1.png" alt="Brand"></div>
+                <div class="col-auto"><img src="img/brand/br-1-2.png" alt="Brand"></div>
+                <div class="col-auto"><img src="img/brand/br-1-3.png" alt="Brand"></div>
+                <div class="col-auto"><img src="img/brand/br-1-4.png" alt="Brand"></div>
+                <div class="col-auto"><img src="img/brand/br-1-5.png" alt="Brand"></div>
+                <div class="col-auto"><img src="img/brand/br-1-6.png" alt="Brand"></div>
             </div>
         </div>
     </section>
     <!--==============================
           Blog Area
           ==============================-->
-    <section class="vs-blog-wrapper  space-top space-extra-bottom" data-bg-src="assets/img/bg/blog-bg-1-1.jpg">
+    <section class="vs-blog-wrapper  space-top space-extra-bottom" data-bg-src="img/bg/blog-bg-1-1.jpg">
         <div class="container  wow fadeInUp" data-wow-delay="0.2s">
             <div class="row justify-content-center text-center">
                 <div class="col-xl-6">
@@ -753,7 +753,7 @@
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog-1-1.jpg" alt="Blog Image" class="w-100">
+                            <img src="img/blog/blog-1-1.jpg" alt="Blog Image" class="w-100">
                             <div class="blog-content">
                                 <div class="blog-meta">
                                     <a href="blog.html"><i class="far fa-calendar"></i>24 Feb, 2022</a>
@@ -770,7 +770,7 @@
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog-1-4.jpg" alt="Blog Image" class="w-100">
+                            <img src="img/blog/blog-1-4.jpg" alt="Blog Image" class="w-100">
                             <div class="blog-content">
                                 <div class="blog-meta">
                                     <a href="blog.html"><i class="far fa-calendar"></i>30 Mar, 2022</a>
@@ -787,7 +787,7 @@
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog-1-2.jpg" alt="Blog Image" class="w-100">
+                            <img src="img/blog/blog-1-2.jpg" alt="Blog Image" class="w-100">
                             <div class="blog-content">
                                 <div class="blog-meta">
                                     <a href="blog.html"><i class="far fa-calendar"></i>31 Jul, 2022</a>
@@ -804,7 +804,7 @@
                 <div class="col-xl-4">
                     <div class="vs-blog blog-style1">
                         <div class="blog-img">
-                            <img src="assets/img/blog/blog-1-3.jpg" alt="Blog Image" class="w-100">
+                            <img src="img/blog/blog-1-3.jpg" alt="Blog Image" class="w-100">
                             <div class="blog-content">
                                 <div class="blog-meta">
                                     <a href="blog.html"><i class="far fa-calendar"></i>26 Aug, 2022</a>
@@ -824,7 +824,7 @@
     <!--==============================
             Footer Area
         ==============================-->
-    <footer class="footer-wrapper footer-layout1" data-bg-src="assets/img/shape/bg-footer-1-1.jpg">
+    <footer class="footer-wrapper footer-layout1" data-bg-src="img/shape/bg-footer-1-1.jpg">
         <div class="footer-top">
             <div class="container">
                 <div class="row">
