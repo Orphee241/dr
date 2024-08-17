@@ -6,7 +6,7 @@
         <div class="vs-menu-area text-center">
             <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img width="190" src="{{ URL::to('assets/img/DR.jpeg') }}" alt="Dynamique Régionale"
+                <a href="index.html"><img width="190" src="{{URL::to('img/bg/sitebanner2.jpg')}}" alt="Dynamique Régionale"
                         class="logo"></a>
             </div>
             <div class="vs-mobile-menu">
