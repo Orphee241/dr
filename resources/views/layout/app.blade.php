@@ -7,6 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="L'ONG Dynamique Régionale traite des questions de l'Intégration Régionale en Afrique Centrale">
     <link href="assets/images/favicon/favicon.png" rel="icon">
+
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    
+    
+    <link rel="stylesheet" href="{{asset("css/bootstrap.min.css")}}">
+    <link rel="stylesheet" href="{{asset("css/fontawesome.min.css")}}">
+    <link rel="stylesheet" href="{{asset("css/layerslider.min.css")}}">
+    <link rel="stylesheet" href="{{asset("css/magnific-popup.min.css")}}">
+    <link rel="stylesheet" href="{{asset("css/slick.min.css")}}">
+
     <title>Dynamique Régionale, l'ONG n°1 dans les questions relatives à l'Intégration Régionale en Afrique Centrale</title>
     <meta name="keywords" content="Intégration Régionale, Afrique Centrale, CEMAC, CEEAC, Libreville, GABON, CAMEROUN, CONGO, RDC, TCHAD" />
 {{--     <meta name="robots" content="INDEX,FOLLOW"> --}}
@@ -30,7 +40,9 @@
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
     <link rel="manifest" href="img/favicons/manifest.json"> --}}
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -44,7 +56,7 @@
         href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700&family=Fira+Sans:wght@400;500&display=swap"
         rel="stylesheet">
 
-    @vite(['public/js/app.js'])
+    @vite(['public/css/style.css'])
 
 </head>
 
@@ -53,6 +65,21 @@
     @include("navbar.navbar")
 
     @yield('content')
+
+
+<script src="{{asset('js/slick.min.js')}}"></script>
+<script src="{{asset('js/layerslider.utils.js')}}"></script>
+<script src="{{asset('js/layerslider.transitions.js')}}"></script>
+<script src="{{asset('js/layerslider.kreaturamedia.jquery.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{asset('js/imagesloaded.pkgd.min.js')}}"></script>
+<script src="{{asset('js/isotope.pkgd.min.js')}}"></script>
+<script src="{{asset('js/main.js')}}"></script>
+
+
+
+
 
 </body>
 

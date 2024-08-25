@@ -5,10 +5,9 @@
 @endsection
 
 @section('content')
-
     <!--==============================
-            Hero Area
-          ==============================-->
+                Hero Area
+              ==============================-->
     <section class="vs-hero-wrapper position-relative  ">
         <div class="vs-hero-carousel" data-height="850" data-container="1900" data-slidertype="responsive">
             <!-- Slide 1-->
@@ -36,7 +35,8 @@
                 <div style="top:405px; left:350px; background-size:inherit; background-position:inherit; font-size:16px; line-height:28px; font-family:Fira Sans; width:695px; color:#ffffff; white-space:normal;"
                     class="ls-l ls-hide-tablet ls-hide-phone ls-text-layer"
                     data-ls="offsetyin:50; durationin:1500; delayin:600; easingin:easeOutQuint; offsetyout:50; durationout:1500; easingout:easeOutQuint; position:relative;">
-                    Dynamique Régionale (DR) est une ONG mènant ses activités depuis 2021 au Gabon, conformément aux dispositions de la
+                    Dynamique Régionale (DR) est une ONG mènant ses activités depuis 2021 au Gabon, conformément aux
+                    dispositions de la
                     loi n°035/62 du 10 décembre 1962 relative aux Associations en République gabonaise. </div>
                 <div style="top:495px; left:350px; background-size:inherit; background-position:inherit; font-size:24px;"
                     class="ls-l ls-hide-tablet ls-hide-phone ls-html-layer"
@@ -128,7 +128,8 @@
                 <div style="top:405px; left:350px; background-size:inherit; background-position:inherit; font-size:16px; line-height:28px; font-family:Fira Sans; width:695px; color:#ffffff; white-space:normal;"
                     class="ls-l ls-hide-tablet ls-hide-phone ls-text-layer"
                     data-ls="offsetyin:50; durationin:1500; delayin:600; easingin:easeOutQuint; offsetyout:50; durationout:1500; easingout:easeOutQuint; position:relative;">
-                    Dynamique Régionale (DR) est une ONG mènant ses activités depuis 2021 au Gabon, conformément aux dispositions de la
+                    Dynamique Régionale (DR) est une ONG mènant ses activités depuis 2021 au Gabon, conformément aux
+                    dispositions de la
                     loi n°035/62 du 10 décembre 1962 relative aux Associations en République gabonaise.</div>
                 <div style="top:495px; left:350px; background-size:inherit; background-position:inherit; font-size:24px;"
                     class="ls-l ls-hide-tablet ls-hide-phone ls-html-layer"
@@ -208,7 +209,8 @@
                 <div style="top:405px; left:350px; background-size:inherit; background-position:inherit; font-size:16px; line-height:28px; font-family:Fira Sans; width:695px; color:#ffffff; white-space:normal;"
                     class="ls-l ls-hide-tablet ls-hide-phone ls-text-layer"
                     data-ls="offsetyin:50; durationin:1500; delayin:600; easingin:easeOutQuint; offsetyout:50; durationout:1500; easingout:easeOutQuint; position:relative;">
-                    Dynamique Régionale (DR) est une ONG mènant ses activités depuis 2021 au Gabon, conformément aux dispositions de la
+                    Dynamique Régionale (DR) est une ONG mènant ses activités depuis 2021 au Gabon, conformément aux
+                    dispositions de la
                     loi n°035/62 du 10 décembre 1962 relative aux Associations en République gabonaise.</div>
                 <div style="top:495px; left:350px; background-size:inherit; background-position:inherit; font-size:24px;"
                     class="ls-l ls-hide-tablet ls-hide-phone ls-html-layer"
@@ -263,8 +265,8 @@
     </section>
     <div data-bg-src="{{ URL::to('/img/bg/ab-bg-1-1.jpg') }}">
         <!--==============================
-          Features Area
-          ==============================-->
+              Features Area
+              ==============================-->
         <section class="feature-wrap1  space-top space-extra-bottom">
             <div class="container wow fadeInUp" data-wow-delay="0.2s">
                 <div class="row vs-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2">
@@ -305,8 +307,8 @@
             </div>
         </section>
         <!--==============================
-          About Us
-          ==============================-->
+              About Us
+              ==============================-->
         <section class="position-relative space-bottom">
             <span class="about-shape1 d-none d-xl-block">TechBiz</span>
             <div class="container z-index-common">
@@ -345,8 +347,8 @@
         </section>
     </div>
     <!--==============================
-          Service Area
-          ==============================-->
+              Service Area
+              ==============================-->
     <section class=" space-top space-extra-bottom" data-bg-src="img/bg/sr-bg-1-1.png">
         <div class="container">
             <div class="row justify-content-center text-center">
@@ -428,8 +430,8 @@
         </div>
     </section>
     <!--==============================
-          Counter Area
-          ==============================-->
+              Counter Area
+              ==============================-->
     <div class="position-relative ">
         <div class="counter-shape1"></div>
         <div class="bg-black z-index-common space" data-bg-src="img/bg/counter-bg-1-1.jpg">
@@ -480,8 +482,8 @@
         </div>
     </div>
     <!--==============================
-          Team Area
-          ==============================-->
+              Team Area
+              ==============================-->
     <section class=" space-top space-extra-bottom">
         <div class="container wow fadeInUp" data-wow-delay="0.2s">
             <div class="row justify-content-center text-center">
@@ -592,12 +594,12 @@
         </div>
     </section>
     <!--==============================
-          FAQ Area
-          ==============================-->
-    
+              FAQ Area
+              ==============================-->
+
     <!--==============================
-          Skill Area
-          ==============================-->
+              Skill Area
+              ==============================-->
     <section class=" space-top space-extra-bottom">
         <div class="container">
             <div class="row flex-row-reverse">
@@ -639,8 +641,8 @@
         </div>
     </section>
     <!--==============================
-          CTA Area
-          ==============================-->
+              CTA Area
+              ==============================-->
     <section class="z-index-common space" data-bg-src="img/bg/cta-bg-1-1.jpg">
         <div class="container">
             <div class="row text-center text-lg-start align-items-center justify-content-between">
@@ -655,8 +657,8 @@
         </div>
     </section>
     <!--==============================
-          Work Process
-          ==============================-->
+              Work Process
+              ==============================-->
     <section class=" space-top space-extra-bottom" data-bg-src="img/bg/process-bg-1-1.jpg" id="processv1">
         <div class="container wow fadeInUp" data-wow-delay="0.2s">
             <div class="row justify-content-center text-center">
@@ -712,12 +714,12 @@
         </div>
     </section>
     <!--==============================
-          Testimonial Area
-          ==============================-->
+              Testimonial Area
+              ==============================-->
 
     <!--==============================
-          Brand Section
-          ==============================-->
+              Brand Section
+              ==============================-->
     <section class=" space-bottom">
         <div class="container">
             <div class="sec-line-wrap">
@@ -737,8 +739,8 @@
         </div>
     </section>
     <!--==============================
-          Blog Area
-          ==============================-->
+              Blog Area
+              ==============================-->
     <section class="vs-blog-wrapper  space-top space-extra-bottom" data-bg-src="img/bg/blog-bg-1-1.jpg">
         <div class="container  wow fadeInUp" data-wow-delay="0.2s">
             <div class="row justify-content-center text-center">
@@ -822,8 +824,8 @@
         </div>
     </section>
     <!--==============================
-            Footer Area
-        ==============================-->
+                Footer Area
+            ==============================-->
     <footer class="footer-wrapper footer-layout1" data-bg-src="img/shape/bg-footer-1-1.jpg">
         <div class="footer-top">
             <div class="container">
@@ -842,7 +844,7 @@
                             <div class="footer-info_icon"><i class="fal fa-clock"></i></div>
                             <div class="media-body">
                                 <span class="footer-info_label">Horaires</span>
-                                <div class="footer-info_link">Du lundi au vendredi <span style="visibility: hidden"> jkk</span> De 08h à 16H</div>
+                                <div class="footer-info_link">Du lundi au vendredi <br> De 08h à 16H</div>
                             </div>
                         </div>
                     </div>
@@ -851,8 +853,9 @@
                             <div class="footer-info_icon"><i class="fal fa-phone-volume"></i></div>
                             <div class="media-body">
                                 <span class="footer-info_label">Contacts</span>
-                                <div class="footer-info_link"><a href="mailto:info@techbiz.com">contact@dynamiqueregionale.</a><br><a
-                                        href="tel:+2597462153">(+241) 77187894</a></div>
+                                <div class="footer-info_link"><a
+                                        href="mailto:info@techbiz.com">contact@dynamiqueregionale.org</a><br><a
+                                        href="tel:+2597462153">+241 77 18 78 94</a></div>
                             </div>
                         </div>
                     </div>
@@ -910,8 +913,8 @@
                             <div class="footer-map">
                                 <iframe title="office location map"
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163720.11965853968!2d8.496481908353967!3d50.121347879150306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bd096f477096c5%3A0x422435029b0c600!2sFrankfurt%2C%20Germany!5e0!3m2!1sen!2sbd!4v1651732317319!5m2!1sen!2sbd"
-                                    width="200" height="180" style="border:0;" allowfullscreen=""
-                                    loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    width="200" height="180" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
                         </div>
                     </div>
