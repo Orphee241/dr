@@ -97,7 +97,7 @@ Version: 1.0.0
 
 .home-five,
 .home-four {
-  --theme-color: #0037ff;
+  --theme-color: #28a745;
   --smoke-color: #f6f7fc;
 }
 
@@ -8480,10 +8480,7 @@ blockquote.vs-quote .quote-author {
 .service-style1 .service-top .service-icon {
   margin: 0;
 }
-.service-style1:hover {
-  box-shadow: 0px 16px 47px rgba(14, 89, 242, 0.2);
-  background-color: var(--theme-color);
-}
+
 .service-style1:hover .service-number {
   opacity: 0;
   visibility: hidden;

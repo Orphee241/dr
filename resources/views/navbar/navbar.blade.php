@@ -6,28 +6,31 @@
         <div class="vs-menu-area text-center">
             <button class="vs-menu-toggle"><i class="fal fa-times"></i></button>
             <div class="mobile-logo">
-                <a href="index.html"><img width="190" src="{{URL::to('img/bg/sitebanner2.jpg')}}" alt="Dynamique Régionale"
+                <a href="index.html"><img width="120" src="{{asset('img/DR.jpEg')}}" alt="Dynamique Régionale"
                         class="logo"></a>
             </div>
             <div class="vs-mobile-menu">
                 <ul>
                     <li class="menu-item-has-children">
-                        <a href="index.html">Home</a>
+                        <a href="index.html">Accueil</a>
                     </li>
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a href="about.html">Activités</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="blog.html">Blog</a>
+                        <a href="blog.html">Mission</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#none">Pages</a>
+                        <a href="#none">Créer un compte</a>
                     </li>
                     <li class="menu-item-has-children">
-                        <a href="#none"><span class="has-new-lable">Elements</span></a>
+                        <a href="#none"><span class="has-new-lable">Se connecter</span></a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a href="contact.html">A propos de nous</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +54,7 @@
                             <nav class="main-menu menu-style1 d-none d-lg-block">
                                 <ul>
                                     <li style="margin-left: -8em; margin-right: 10em" class="header-logo">
-                                        <a href="index.html"><img width="130" src="{{ URL::to('assets/img/DR.jpeg') }}"
+                                        <a href="index.html"><img width="130" src="{{URL::to('img/DR.jpeg') }}"
                                                 alt="TechBiz" class="logo"></a>
                                     </li>
                                     <li class="menu-item-has-children">
