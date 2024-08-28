@@ -1093,6 +1093,7 @@ input[type=checkbox] ~ label:before {
   line-height: 18px;
   text-align: center;
   font-size: 12px;
+  
 }
 
 input[type=radio] {
