@@ -81,7 +81,7 @@
                     data-ls="offsetxin:-200; durationin:1500; delayin:200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Au coeur de l'Intégration Régionale en Afrique Centrale
                 </p>
-                <div style="top:520px; left:40%; text-align:center; background-size:inherit; background-position:inherit; font-size:24px; width:1000px;"
+                <div style="top:520px; left:35%; text-align:center; background-size:inherit; background-position:inherit; font-size:24px; width:1000px;"
                     class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer"
                     data-ls="offsetyin:50; durationin:1500; delayin:900; easingin:easeOutQuint; offsetyout:50; durationout:1500; easingout:easeOutQuint; position:relative;">
                     <div class="ls-btn-group">
@@ -175,7 +175,7 @@
                     data-ls="offsetxin:-200; durationin:1500; delayin:200; easingin:easeOutQuint; offsetxout:-100; durationout:1500; easingout:easeOutQuint;">
                     Au coeur de l'Intégration Régionale en Afrique Centrale
                 </p>
-                <div style="top:520px; left:40%; text-align:center; background-size:inherit; background-position:inherit; font-size:24px; width:1000px;"
+                <div style="top:520px; left:35%; text-align:center; background-size:inherit; background-position:inherit; font-size:24px; width:1000px;"
                     class="ls-l ls-hide-desktop ls-hide-tablet ls-html-layer"
                     data-ls="offsetyin:50; durationin:1500; delayin:900; easingin:easeOutQuint; offsetyout:50; durationout:1500; easingout:easeOutQuint; position:relative;">
                     <div class="ls-btn-group">
