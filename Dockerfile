@@ -4,7 +4,7 @@ FROM php:8.0-fpm
 WORKDIR /var/www
 
 # Install dependencies
-RUN apt-get update && apt-get install -y \
+RUN apt-get --fix-missing update && apt-get install -y \
     build-essential \
     libpng-dev \
     libjpeg62-turbo-dev \
