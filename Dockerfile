@@ -1,43 +1,41 @@
-FROM php:8.0-fpm
+# Utiliser l'image Laravel Sail comme base
+FROM laravelsail/php80-composer:latest
 
-# Set working directory
-WORKDIR /var/www
+# Arguments pour le groupe et l'utilisateur
+ARG WWWGROUP
+ARG WWWUSER
 
-# Install dependencies
-RUN apt-get --fix-missing update && apt-get install -y \
-    build-essential \
-    libpng-dev \
+# Définir des variables d'environnement
+ENV WWWGROUP=${WWWGROUP:-1000}
+ENV WWWUSER=${WWWUSER:-1000}
+
+# Installer des dépendances supplémentaires si nécessaire
+RUN apt-get update && apt-get install -y \
     libjpeg62-turbo-dev \
+    libpng-dev \
     libfreetype6-dev \
-    locales \
     zip \
-    jpegoptim optipng pngquant gifsicle \
-    vim \
     unzip \
     git \
-    curl \
-    libonig-dev && \
-    apt-get clean && rm -rf /var/lib/apt/lists/*
+    curl
 
-# Install PHP extensions
-RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+# Exécuter des commandes supplémentaires si nécessaire
+# Par exemple, ici nous installons des extensions PHP supplémentaires
+RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
+    && docker-php-ext-install pdo pdo_mysql gd
 
-# Install composer
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+# Copier le code source de l'application
+COPY . /var/www/html
 
-# Add user for laravel application
-RUN groupadd -g 1000 www
-RUN useradd -u 1000 -ms /bin/bash -g www www
+# Définir le répertoire de travail
+WORKDIR /var/www/html
 
-# Copy existing application directory contents
-COPY . /var/www
+# Installer les dépendances PHP avec Composer
+RUN composer install --optimize-autoloader --no-dev && \
+    chown -R $WWWUSER:$WWWGROUP /var/www/html
 
-# Copy existing application directory permissions
-COPY --chown=www:www . /var/www
+# Exposer le port
+EXPOSE 80
 
-# Change current user to www
-USER www
-
-# Expose port 9000 and start php-fpm server
-EXPOSE 8080
-CMD ["php-fpm"]
+# Démarrage du serveur web
+CMD ["./vendor/bin/sail", "up"]
