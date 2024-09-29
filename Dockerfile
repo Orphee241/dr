@@ -1,5 +1,5 @@
 # Utiliser l'image Laravel Sail comme base
-FROM laravelsail/php80-composer:latest
+FROM laravelsail/php81-composer:latest
 
 # Arguments pour le groupe et l'utilisateur
 ARG WWWGROUP
