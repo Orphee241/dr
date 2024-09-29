@@ -38,4 +38,4 @@ RUN composer install --optimize-autoloader --no-dev && \
 EXPOSE 80
 
 # Démarrage du serveur web
-CMD ["./vendor/bin/sail", "up"]
+CMD ["./vendor/laravel/sail/bin/sail", "up"]
