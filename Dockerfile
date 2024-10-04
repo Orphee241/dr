@@ -1,42 +1,54 @@
-# Utiliser l'image Laravel Sail comme base
-FROM laravelsail/php81-composer:latest
+FROM php:8.2-fpm
 
-# Arguments pour le groupe et l'utilisateur
-ARG WWWGROUP
-ARG WWWUSER
+# Arguments définis dans docker-compose.yml
+ARG user=laravel
+ARG uid=1000
 
-# Définir des variables d'environnement
-ENV WWWGROUP=${WWWGROUP:-1000}
-ENV WWWUSER=${WWWUSER:-1000}
-
-# Installer des dépendances supplémentaires si nécessaire
+# Installer les dépendances système
 RUN apt-get update && apt-get install -y \
-    libjpeg62-turbo-dev \
-    libpng-dev \
-    libfreetype6-dev \
-    zip \
-    unzip \
     git \
-    curl
+    curl \
+    libpng-dev \
+    libonig-dev \
+    libxml2-dev \
+    zip \
+    unzip
 
-# Exécuter des commandes supplémentaires si nécessaire
-# Par exemple, ici nous installons des extensions PHP supplémentaires
-RUN docker-php-ext-configure gd --with-freetype --with-jpeg \
-    && docker-php-ext-install pdo pdo_mysql gd
+# Nettoyer le cache
+RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 
-# Copier le code source de l'application
-COPY . /var/www/html
+# Installer les extensions PHP
+RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
+
+# Obtenir la dernière version de Composer
+COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+
+# Créer un utilisateur système pour exécuter les commandes Composer et Artisan
+RUN useradd -G www-data,root -u $uid -d /home/$user $user
+RUN mkdir -p /home/$user/.composer && \
+    chown -R $user:$user /home/$user
 
 # Définir le répertoire de travail
-WORKDIR /var/www/html
+WORKDIR /var/www
 
-# Installer les dépendances PHP avec Composer
-RUN composer install --optimize-autoloader --no-dev && \
-    chown -R $WWWUSER:$WWWGROUP /var/www/html
+# Copier les fichiers de l'application
+COPY . /var/www
 
-# Exposer le port
-EXPOSE 80
+# Copier les autorisations existantes du répertoire de projet
+COPY --chown=$user:$user . /var/www
 
-# Démarrage du serveur web
-#CMD ["bash ./vendor/laravel/sail/bin/sail", "up"]
-CMD ["bash", "-c", "./vendor/bin/sail up"]
+# Installer les dépendances
+RUN composer install --no-dev --optimize-autoloader
+
+# Générer la clé d'application
+RUN php artisan key:generate
+
+# Optimiser l'application
+RUN php artisan optimize
+
+# Changer l'utilisateur actuel par l'utilisateur système
+USER $user
+
+# Exposer le port 9000 et démarrer le serveur php-fpm
+EXPOSE 9000
+CMD ["php-fpm"]

@@ -1,0 +1,10 @@
+FROM dynamiqueregionale
+
+# Copier le fichier .env.production
+COPY .env.production .env
+
+# Exposer le port 80
+EXPOSE 80
+
+# Démarrer Nginx et PHP-FPM
+CMD service nginx start && php-fpm

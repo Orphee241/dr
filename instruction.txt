@@ -1,0 +1,3 @@
+Actuellement, le projet est en cours de développement en laravel.
+Je veux que tu me crées le fichier docker-compose.yml qui permet de lancer le projet en local avec laravel sail a partir du projet dynamiqueregionale.
+Ensuite, je veux que tu me crées le fichier Dockerfile qui permet de builder l'image docker.
