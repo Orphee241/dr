@@ -10,6 +10,8 @@ services:
             - .:/var/www
         networks:
             - laravel
+        expose:
+            - "9000"
 
     nginx:
         image: nginx:alpine
@@ -17,11 +19,14 @@ services:
         restart: unless-stopped
         ports:
             - "80:80"
+        depends_on:
+            - app
         volumes:
             - .:/var/www
             - ./nginx.conf:/etc/nginx/conf.d/default.conf
         networks:
             - laravel
+        command: [nginx-debug, '-g', 'daemon off;']
 
     db:
         image: mysql:5.7

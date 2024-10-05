@@ -1,4 +1,4 @@
-FROM php:8.1-fpm
+FROM php:7.4-fpm
 
 # Installer les dépendances
 RUN apt-get update && apt-get install -y \
@@ -35,4 +35,10 @@ RUN chown -R www-data:www-data /var/www
 EXPOSE 9000
 
 # Démarrer PHP-FPM
-CMD ["php-fpm"]
+#CMD ["php-fpm"]
+
+# Commande de démarrage pour Nginx
+CMD ["nginx", "-g", "daemon off;"]
+
+# Modifier la configuration de PHP-FPM
+RUN sed -i 's/listen = 127.0.0.1:9000/listen = 9000/g' /usr/local/etc/php-fpm.d/www.conf
