@@ -1,3 +1,5 @@
-Actuellement, le projet est en cours de développement en laravel.
-Je veux que tu me crées le fichier docker-compose.yml qui permet de lancer le projet en local avec laravel sail a partir du projet dynamiqueregionale.
-Ensuite, je veux que tu me crées le fichier Dockerfile qui permet de builder l'image docker.
+# Creer le fichier docker-compose.yml qui permet de lancer le projet dynamiqueregionale en local
+# Creer le fichier Dockerfile qui permet de builder l'image docker
+# Ajoute mysql et phpmyadmin a docker-compose.yml
+# utiliser le port 8001 pour mon application s'i est disponible
+

@@ -1,10 +1,6 @@
-FROM php:8.2-fpm
+FROM php:8.1-fpm
 
-# Arguments définis dans docker-compose.yml
-ARG user=laravel
-ARG uid=1000
-
-# Installer les dépendances système
+# Installer les dépendances
 RUN apt-get update && apt-get install -y \
     git \
     curl \
@@ -20,13 +16,8 @@ RUN apt-get clean && rm -rf /var/lib/apt/lists/*
 # Installer les extensions PHP
 RUN docker-php-ext-install pdo_mysql mbstring exif pcntl bcmath gd
 
-# Obtenir la dernière version de Composer
+# Obtenir Composer
 COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
-
-# Créer un utilisateur système pour exécuter les commandes Composer et Artisan
-RUN useradd -G www-data,root -u $uid -d /home/$user $user
-RUN mkdir -p /home/$user/.composer && \
-    chown -R $user:$user /home/$user
 
 # Définir le répertoire de travail
 WORKDIR /var/www
@@ -34,21 +25,14 @@ WORKDIR /var/www
 # Copier les fichiers de l'application
 COPY . /var/www
 
-# Copier les autorisations existantes du répertoire de projet
-COPY --chown=$user:$user . /var/www
-
 # Installer les dépendances
-RUN composer install --no-dev --optimize-autoloader
+RUN composer install
 
-# Générer la clé d'application
-RUN php artisan key:generate
+# Changer les permissions
+RUN chown -R www-data:www-data /var/www
 
-# Optimiser l'application
-RUN php artisan optimize
-
-# Changer l'utilisateur actuel par l'utilisateur système
-USER $user
-
-# Exposer le port 9000 et démarrer le serveur php-fpm
+# Exposer le port 9000
 EXPOSE 9000
+
+# Démarrer PHP-FPM
 CMD ["php-fpm"]
